@@ -1,8 +1,8 @@
 <?php 
-    $host = 'bzj67czgo2m9edugdi2e-mysql.services.clever-cloud.com';
-    $username = 'ux3danhhdntu9f7a';
-    $password = 'iLkqBIxpvUdxDQIm9gMr';
-    $database = 'bzj67czgo2m9edugdi2e';
+    $host = 'localhost';
+    $username = 'root';
+    $password = '';
+    $database = 'wedding';
     
     $connection = mysqli_connect($host, $username, $password, $database);
     
