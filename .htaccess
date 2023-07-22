@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^index$ index.php [nc]
+RewriteRule ^edit$ config/edit.php [nc]
+RewriteRule ^gallery$ config/editGallery.php [nc]
+RewriteRule ^timeline$ config/editT.php [nc]

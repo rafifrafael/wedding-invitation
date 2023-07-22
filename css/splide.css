@@ -1,0 +1,16 @@
+
+.splide__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; /* Adjust the height as needed */
+}
+
+
+.splide__slide2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+    height: 200px; /* Adjust the height as needed */
+}

@@ -1,0 +1,28 @@
+.anim-logo {
+    background: transparent;
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    margin: 0 auto;
+  }
+  .anim-logo:before {
+    content: "";
+    position: absolute;
+    background-image: url("https://78.media.tumblr.com/2746a912030548f5b015e2f2cba67107/tumblr_p6ajmf09LB1w3i8y8o2_540.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    left: 0;
+    height: inherit;
+    width: inherit;
+    -webkit-animation: rotation 15s infinite linear;
+  }
+  @-webkit-keyframes rotation {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(359deg);
+    }
+  }
